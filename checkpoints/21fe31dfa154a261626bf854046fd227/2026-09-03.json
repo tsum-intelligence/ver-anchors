@@ -1,0 +1,12 @@
+{
+  "checkpoint": {
+    "date": "2026-09-03",
+    "leaf_count": 2,
+    "leaf_hash_algorithm": "SHA-256",
+    "root": "7573c9943750b7c8a9e7ffe9960f13aa349c5b7cc7ce02e81c11f47571935d21",
+    "tenant_key_id": "21fe31dfa154a261626bf854046fd227",
+    "ver_version": "0.1"
+  },
+  "checkpoint_signature": "1zT6fLq9T5toPqA5UfRgTE/R7OYpCOHMn/5+sPEW900Ze3CJX7H0BdAK+jH2pc71l6q7D80BgmYxRgoI/yoDBg==",
+  "_note": "Test vector from VER Specification v0.1 §17.7. Signed with the RFC 8032 test key. Not a production tenant. Present so that implementers have a file to match."
+}
