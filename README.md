@@ -46,19 +46,19 @@ No records. No artifacts. No personal data. Only Merkle roots — 64-character h
 4. Note the commit's date. The record existed no later than that.
 5. Run the open validator on the package. Step 23 verifies the checkpoint signature and walks the inclusion proof to the root.
 
-The validator and specification: https://github.com/KumariSambriddhi12/Avichala (moving to a public repository before publication).
+The validator and specification are being prepared for publication under https://github.com/tsum-intelligence. This line will carry the link when they are public.
 
 ## Rules
 
 - Files are added, never modified or deleted. If a checkpoint is wrong, a correction is a new file with a note, not an edit.
 - One file per tenant per day. A day with zero records has no file.
 - Commits are made by the sealer, not by hand.
-- Nothing else goes in this repository.
+- Nothing else goes in this repository, apart from this README and `SECURITY.md` (how to report a problem with the checkpoint or anchor mechanism). Neither is evidence; the `checkpoints/` tree is.
 
 ## Who operates this
 
-Tsum Intelligence Pvt. Ltd., Kathmandu, as editor of the VER specification. The specification is published under CC BY 4.0; the reference validator under Apache 2.0. Tsum does not hold any tenant's signing key and cannot produce a checkpoint on a tenant's behalf.
+Tsum Intelligence Pvt. Ltd., Kathmandu, as editor of the VER specification. The repository is held by the company's GitHub organisation, `tsum-intelligence`, not by any individual's account. The specification is published under CC BY 4.0; the reference validator under Apache 2.0. Tsum does not hold any tenant's signing key and cannot produce a checkpoint on a tenant's behalf.
 
 ---
 
-*First commit: 8 September 2026. The repository is the evidence.*
+*First commit: 8 September 2026. Transferred from a personal account to the `tsum-intelligence` organisation on 7 October 2026; the history is unchanged and the old address redirects. The repository is the evidence.*
